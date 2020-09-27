@@ -1,0 +1,2278 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - Invector.vCharacterController.vEditorStartupPrefs
+    Assembly-CSharp.dll:
+    - GameName.BuiltinDataComponent
+    - GameName.GameEntry
+    - GameName.UpdateResourceForm
+    - Invector.vCharacterController.vHUDController
+    - Invector.vDestroyGameObject
+    - Invector.vEventSystems.vAnimatorTag
+    - Invector.vEventSystems.vAnimatorTagAdvanced
+    - Invector.vItemManager.vAmmoDisplay
+    - Invector.vItemManager.vItemEnumsList
+    - Invector.vMelee.vMeleeAttackControl
+    - Invector.vMelee.vRandomAttackBehaviour
+    - Invector.vShooter.vAimCanvas
+    - Invector.vShooter.vBulletLifeSettings
+    - Invector.vShooter.vControlAimCanvas
+    - Invector.vShooter.vDecalManager
+    - Invector.vShooter.vProjectileControl
+    - Invector.vShooter.vShooterWeapon
+    - Invector.vShooter.vWeaponIKAdjust
+    - Invector.vShooter.vWeaponIKAdjustList
+    - Invector.vSliderSizeControl
+    - Invector.vTriggerSoundByState
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineNode
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    UnityGameFramework.Runtime.dll:
+    - UnityGameFramework.Runtime.BaseComponent
+    - UnityGameFramework.Runtime.ConfigComponent
+    - UnityGameFramework.Runtime.DataNodeComponent
+    - UnityGameFramework.Runtime.DataTableComponent
+    - UnityGameFramework.Runtime.DebuggerComponent
+    - UnityGameFramework.Runtime.DownloadComponent
+    - UnityGameFramework.Runtime.EditorResourceComponent
+    - UnityGameFramework.Runtime.EntityComponent
+    - UnityGameFramework.Runtime.EventComponent
+    - UnityGameFramework.Runtime.FileSystemComponent
+    - UnityGameFramework.Runtime.FsmComponent
+    - UnityGameFramework.Runtime.LocalizationComponent
+    - UnityGameFramework.Runtime.NetworkComponent
+    - UnityGameFramework.Runtime.ObjectPoolComponent
+    - UnityGameFramework.Runtime.ProcedureComponent
+    - UnityGameFramework.Runtime.ReferencePoolComponent
+    - UnityGameFramework.Runtime.ResourceComponent
+    - UnityGameFramework.Runtime.SceneComponent
+    - UnityGameFramework.Runtime.SettingComponent
+    - UnityGameFramework.Runtime.SoundComponent
+    - UnityGameFramework.Runtime.UIComponent
+    - UnityGameFramework.Runtime.WebRequestComponent
+  sceneClasses:
+    Assets/GameEntry.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 588}
+    - Class: 114
+      Script: {instanceID: 11188}
+    - Class: 114
+      Script: {instanceID: 11366}
+    - Class: 114
+      Script: {instanceID: 11482}
+    - Class: 114
+      Script: {instanceID: 11550}
+    - Class: 114
+      Script: {instanceID: 11554}
+    - Class: 114
+      Script: {instanceID: 11624}
+    - Class: 114
+      Script: {instanceID: 11752}
+    - Class: 114
+      Script: {instanceID: 11772}
+    - Class: 114
+      Script: {instanceID: 11872}
+    - Class: 114
+      Script: {instanceID: 11894}
+    - Class: 114
+      Script: {instanceID: 11956}
+    - Class: 114
+      Script: {instanceID: 12024}
+    - Class: 114
+      Script: {instanceID: 12026}
+    - Class: 114
+      Script: {instanceID: 12056}
+    - Class: 114
+      Script: {instanceID: 12096}
+    - Class: 114
+      Script: {instanceID: 12200}
+    - Class: 114
+      Script: {instanceID: 12202}
+    - Class: 114
+      Script: {instanceID: 12244}
+    - Class: 114
+      Script: {instanceID: 12294}
+    - Class: 114
+      Script: {instanceID: 12410}
+    - Class: 114
+      Script: {instanceID: 12568}
+    - Class: 114
+      Script: {instanceID: 12620}
+    - Class: 114
+      Script: {instanceID: 12632}
+    - Class: 114
+      Script: {instanceID: 12712}
+    - Class: 114
+      Script: {instanceID: 12808}
+    - Class: 114
+      Script: {instanceID: 12816}
+    - Class: 114
+      Script: {instanceID: 12924}
+    - Class: 114
+      Script: {instanceID: 12966}
+    - Class: 114
+      Script: {instanceID: 12982}
+    - Class: 114
+      Script: {instanceID: 13048}
+    - Class: 114
+      Script: {instanceID: 13202}
+    - Class: 114
+      Script: {instanceID: 13206}
+    - Class: 114
+      Script: {instanceID: 13208}
+    - Class: 114
+      Script: {instanceID: 13444}
+    - Class: 114
+      Script: {instanceID: 13460}
+    - Class: 114
+      Script: {instanceID: 13504}
+    - Class: 114
+      Script: {instanceID: 13506}
+    - Class: 114
+      Script: {instanceID: 13720}
+    - Class: 114
+      Script: {instanceID: 13730}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 13870}
+    - Class: 114
+      Script: {instanceID: 13900}
+    - Class: 114
+      Script: {instanceID: 13972}
+    - Class: 114
+      Script: {instanceID: 13990}
+    - Class: 114
+      Script: {instanceID: 14244}
+    - Class: 114
+      Script: {instanceID: 14258}
+    - Class: 114
+      Script: {instanceID: 14352}
+    - Class: 114
+      Script: {instanceID: 14418}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/GameMain/Scenes/GameMain.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12200}
+    - Class: 114
+      Script: {instanceID: 14352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/GameMain/Scenes/GameStart.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12200}
+    - Class: 114
+      Script: {instanceID: 14352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vChangeAnimatorUpdateMode
+  - hash:
+      serializedVersion: 2
+      Hash: a128b42a1b7ed0836a081ba615058372
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vTriggerActionEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 677dd8ddc93cafd95564845630c99bc6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: cItemHouseForm
+  - hash:
+      serializedVersion: 2
+      Hash: 89cac48b95b19522b139b5b814afc02f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vRagdollGenericTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 2229b393b614dc5118bb0ed3f34a0eaa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemSlot
+  - hash:
+      serializedVersion: 2
+      Hash: c2e0f7ee02e95e22297f779e2348fc9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAnimateUV
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 1390362ae38e705c294ebde56e8ed052
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vSkyboxFade
+  - hash:
+      serializedVersion: 2
+      Hash: fb5c415744325eb26e72d25c2031e762
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vFootStepHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: cGameHallForm
+  - hash:
+      serializedVersion: 2
+      Hash: 6e82b6aab8aabd6caada53a48034ff21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vAmmoDisplayImage
+  - hash:
+      serializedVersion: 2
+      Hash: 4303099b49421707069fba48d0f66d3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: BuiltinDataComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 193bbc7cfc24ce0618a14c989c48c4bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vAmmoManager
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: StoreHallForm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: b53f892b697f39549fc27d8ded2ca788
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vLockOnShooter
+  - hash:
+      serializedVersion: 2
+      Hash: 982a187b90ea6519c35a1da0f7a3895d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vCullingFadeControl
+  - hash:
+      serializedVersion: 2
+      Hash: d258f7e940e4060acf808137f3a1ff5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vHeadTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 39fe5e9525ec0d9b4049d1b5aaa26af2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vCollectShooterMeleeControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultEntityHelper
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 6efad3d87792ee211f7220b2ef28c620
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vWeaponConstrain
+  - hash:
+      serializedVersion: 2
+      Hash: 320dc12b2bbd9c763cb1d95492c2e545
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: 49bcb6644453dbac11aabbdfc9f9d083
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vBarrel
+  - hash:
+      serializedVersion: 2
+      Hash: f49ae9339d978816aeab4706b31723d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: SettingForm
+  - hash:
+      serializedVersion: 2
+      Hash: 69a81bcbd0573eac0e3753d2098db165
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vOpenCloseInventoryTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: d21021b0740362d27451b99790452076
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vDecalManager
+  - hash:
+      serializedVersion: 2
+      Hash: 12118998294c5b236453a69726e34978
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vItemDisplay3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ad98e7eb60f8d57df9d2d80b2769d35c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vInput
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 79c35ea9a1e3f37f5ef813d12be3073a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vMeleeAttackControl
+  - hash:
+      serializedVersion: 2
+      Hash: e30505405de5ca2bbb92bf2bc493cf49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.vActions
+    className: vTriggerLadderAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultEntityGroupHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: EventComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 21968b8f5a27d0a54e2ac5704d4eef55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThrowUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b29dd0a3ff7859d82a2e1d8d2676b7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemCollectionTextHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5f0b43daac7c7d4a31b0705643f96c6a
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: UIIntKey
+  - hash:
+      serializedVersion: 2
+      Hash: fa23e834e87360466c2f831cf36a160f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAnimatorSetBool
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultSoundHelper
+  - hash:
+      serializedVersion: 2
+      Hash: b619df4e5d59e6958123590f3aa18b5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCamera
+    className: vThirdPersonCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 377b1b9c8641ca225ed1c4936475a6b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vHitEffects
+  - hash:
+      serializedVersion: 2
+      Hash: 9304f691cbb9c14936d2c78b869eed18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vLookTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7cfa4b26b634d33a008da12f9ac446c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.vActions
+    className: vGenericAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f79b6186d7ae2bf43b493c63c29518f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vSetParentOfController
+  - hash:
+      serializedVersion: 2
+      Hash: 8ee10a7b88322ae0b9b3bbb726c87b8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemEnumsList
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 2f14c2465593a6d1bf4a2e85f1dfe799
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vLookAtCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 1274ded86388998822f452be6aecdbf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vSliderSizeControl
+  - hash:
+      serializedVersion: 2
+      Hash: 9b5638cd2727b2908b96bdba995eb899
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vEventSystems
+    className: vAnimatorTagAdvanced
+  - hash:
+      serializedVersion: 2
+      Hash: 33c66867f0905c5582ef4717d3a50ff6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: MenuForm
+  - hash:
+      serializedVersion: 2
+      Hash: 8c5ef29300ca2e3c9c0d990b0c48b744
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemCollectionDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0c5f7cc36a240693d612bf03bc96370d
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: UIComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vObjectContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 274c0b059f754b8c80e1ec15494934f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vAmmoDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 74373a9dd5d08b14ca0d45816dba8ef1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vAnimatorSetTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d941ab6dd93d37ffdf2277f2ea2375a0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: b12805924d5a095b0b32e9531d622fc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.vActions
+    className: vCollectableStandalone
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: GameEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vLeaveDropItemExample
+  - hash:
+      serializedVersion: 2
+      Hash: e40f1c1397d6ccf19854082de17690f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vArrow
+  - hash:
+      serializedVersion: 2
+      Hash: 78c30e8ee8675f79f6b5455b931a2e2a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vAimCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed1ccf3dd864afa09845471cfe2331b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vProjectileControl
+  - hash:
+      serializedVersion: 2
+      Hash: cd827d40deb6ec7d4f685b56f2eba14c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vHitDamageParticle
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 22f20664cab79264a7315347d5fc3314
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: v_AIWeaponsControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultResourceHelper
+  - hash:
+      serializedVersion: 2
+      Hash: dbdb25ea23634df6c92c05cfd88265e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vObjectDamage
+  - hash:
+      serializedVersion: 2
+      Hash: 2657a0d24486ade2c3a592a6ecc66f03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vToolbarSelector
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultLoadResourceAgentHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 86f21da5e89eb29f5160764dffb1d616
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: vWaypoint
+  - hash:
+      serializedVersion: 2
+      Hash: ab7182bb4ef5f8291fc013d42846c188
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vFindSpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultLocalizationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7d26cfa4999ccd62d697e2850f37c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vShooterEquipment
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 527481a30f5392239b35572a99f4a2e9
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: ResourceComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 932b90e8000e927aab689eb8bd5032b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vCheckpointExample
+  - hash:
+      serializedVersion: 2
+      Hash: 0ec7cfdbf545dc9e7503d1dd9e4dcaac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vFadeCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 2034ba8f4d95f11825e49ccd5d1d2969
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: SceneComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: HideByBoundary
+  - hash:
+      serializedVersion: 2
+      Hash: ee5d4e948a035b8a360e80e06456c6d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vDestroyOnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: PlayerPrefsSettingHelper
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b70495be68e3eaa19a2372c3274a4818
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemCollection
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6e0d4816a7998a449023b23c54c3ef7b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vWeaponIKAdjustList
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 7a3b09cb07767d78412d7ead11afd2fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vTriggerSoundByState
+  - hash:
+      serializedVersion: 2
+      Hash: 6efad3d87792ee211f7220b2ef28c620
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: cad669bb40857f1ff464b90bc5c33602
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vBreakableObject
+  - hash:
+      serializedVersion: 2
+      Hash: c325957963fb806700a2b89c6d4574a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vSetTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 09938efb1b3e2db4e1d88663be11c435
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vBodySnappingControl
+  - hash:
+      serializedVersion: 2
+      Hash: 3f42ca212111477aaafecfd6186b4096
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vHitBox
+  - hash:
+      serializedVersion: 2
+      Hash: 36c0b28184ade67e0177310076a0e00d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vRandomAttackBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 267307f7b7d8ef35efdba75065fb0cef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vCheckCanAddHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultDataTableHelper
+  - hash:
+      serializedVersion: 2
+      Hash: d4da5c8d05974f903dc6b080a247d8ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vChangeInputTypeTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 62af6ce01a6c8d7cdae5d1354ab2d05e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vControlAimCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: b32812b3a361c9fa66cd9cc3b901a4bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vTriggerChangeCameraState
+  - hash:
+      serializedVersion: 2
+      Hash: be32fedf2e47c2a36e6e6383871ab3c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vEventSystems
+    className: vAnimatorEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 6875260b6349505be979a256f4ee890f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThirdPersonInput
+  - hash:
+      serializedVersion: 2
+      Hash: 1cb1723e5c605c10cc7a7cf71a76bf51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vEventSystems
+    className: vAnimatorEventReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 7b33a81ca5120f435a43823468e9f879
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: CommonButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5f7f7f31ebedcc060ac1ca6f8118a052
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vLaserSight
+  - hash:
+      serializedVersion: 2
+      Hash: 4f321eb10e156307d69e3f8d5c7923f2
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultSoundGroupHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 3592240f8df04c89de99fb8e9cf976cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vPunchingBag
+  - hash:
+      serializedVersion: 2
+      Hash: 3b029d13780492c4c35b02191772e141
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vImageColorChange
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: a0a179fbf6de7599080b498ee66f39de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemOptionWindow
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vDestroyChildrens
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultUIFormHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab5d764daefe7930d763203d552ea08
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vShooterMeleeInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5ea05a924985363329604db408842692
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vEventWithDelay
+  - hash:
+      serializedVersion: 2
+      Hash: d651f403dca8d529fcedfeb0da584df2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vSetFirstSelectable
+  - hash:
+      serializedVersion: 2
+      Hash: bf5e1324a673d89913a866ba5dfe3c42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vShooterWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: c2638d2502d029297f2c73e0d9ba76ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: DialogForm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemAttributesManager
+  - hash:
+      serializedVersion: 2
+      Hash: b4bbec83dad00a6a880263b4b1739349
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vOnDeadTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3bd2c286b52dff0b44f3ffbbf8a3b3c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vLoadLevel
+  - hash:
+      serializedVersion: 2
+      Hash: eeeca9341a0e9dfcd74491d1645b4a3a
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: LocalizationComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: ObjectPoolComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 39fe5e9525ec0d9b4049d1b5aaa26af2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vCollectMeleeControl
+  - hash:
+      serializedVersion: 2
+      Hash: cc38e77f13f87e7ec5dedfe61a401f33
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemManager
+  - hash:
+      serializedVersion: 2
+      Hash: 659da3c12a6ecd5faee277a87c4e962a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemAmountWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 507bc8b5f39a0ead6e936534f56ae3a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vDrawHideShooterWeapons
+  - hash:
+      serializedVersion: 2
+      Hash: e8acf71daf3f0808d34b28cc30b2b683
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vThirdPersonCameraListData
+  - hash:
+      serializedVersion: 2
+      Hash: 717ba4fa266856f0da95f974dba1c541
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vComment
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vScaleControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultUIGroupHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: XmlLocalizationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: bb5f6532a0c0e4b745075b7deb0dcb71
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vTargetLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 540178f1573dd64a1d17c34bb618edd8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: cGameStartForm
+  - hash:
+      serializedVersion: 2
+      Hash: 872c8581d0c9ff68e898dbca58859cb7
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: WebRequestComponent
+  - hash:
+      serializedVersion: 2
+      Hash: b88ac78b9e66cbecace06d68d80c9bf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vFrameLimiter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: cOpreateHallForm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: UnityWebRequestAgentHelper
+  - hash:
+      serializedVersion: 2
+      Hash: de0ede03bdd9be4e85b43f698fc2c235
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vContainsItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vSetParent
+  - hash:
+      serializedVersion: 2
+      Hash: 8af6d3da450264d2bd119ced264cfe64
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: UIStringKey
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vDestroyOnSleep
+  - hash:
+      serializedVersion: 2
+      Hash: ed46cf7a1e072f22c2fce74c06bdb2c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: AboutForm
+  - hash:
+      serializedVersion: 2
+      Hash: d040109319d3d8a960cee81e23300a14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: v_AISphereSensor
+  - hash:
+      serializedVersion: 2
+      Hash: 3b38433e9d24135df22408d5619cccb9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vAmmoStandalone
+  - hash:
+      serializedVersion: 2
+      Hash: 16e07f4059091b7943505e9f7a8f1c32
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DownloadComponent
+  - hash:
+      serializedVersion: 2
+      Hash: a54eb875cb7ef924272bfd4225880ea8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vEquipAreaControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: deed2080e83f3e6a5fc0a25f162251ba
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DataTableComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAutoScrollVertical
+  - hash:
+      serializedVersion: 2
+      Hash: d9d2b9aee5346839bb05f5b36d88b812
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vSpike
+  - hash:
+      serializedVersion: 2
+      Hash: 92dc2fe22959583ed643b11ac7adfdec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vHealthItem
+  - hash:
+      serializedVersion: 2
+      Hash: ca7547d79164ed1729d1973be27a56f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vInventory
+  - hash:
+      serializedVersion: 2
+      Hash: 294699681f1310718561bbe024b455dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vBotRifleAnimationControl
+  - hash:
+      serializedVersion: 2
+      Hash: 19fe31b4ecb5e376cf65b3e58d6d0bfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThrowCollectable
+  - hash:
+      serializedVersion: 2
+      Hash: a9cece6c0c2fe07be44c5905c8b86db6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vSimpleInput
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f799c1ab38775272f0b2ffe0f66cc664
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemWindowDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: NetworkComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 507bc8b5f39a0ead6e936534f56ae3a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vDrawHideMeleeWeapons
+  - hash:
+      serializedVersion: 2
+      Hash: a234498c01c00a54254878bdfe4ba57a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vControlAreaByInput
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 20e04a6090f2af37b927742932ed6405
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: SettingComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 08ca5df98e05fc7bcf48b6624edc0fdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThirdPersonAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 76c0ac887ff8c897a183229a37fa7573
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: UseItemEventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5bd12fc9b3a333a18d261bb9268182c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vDestroyGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 38820f146044691828d706afc4d99c83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAudioSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vRemoveParent
+  - hash:
+      serializedVersion: 2
+      Hash: f8449428a9be41bf1cb5532f891c0b4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vEquipSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 2cbfe30245ddf8562d5a4be4521147f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vControlDisplayWeaponStandalone
+  - hash:
+      serializedVersion: 2
+      Hash: 0abf56d8896e84b6077c8aea84afdf35
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vMeleeWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: 7eb06bb32cf7923090cb0e7438edb1a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vMessageSender
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vLoadInventoryItemsExample
+  - hash:
+      serializedVersion: 2
+      Hash: 47cad01498e616bcfc42c9cdb8721122
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThrowManager
+  - hash:
+      serializedVersion: 2
+      Hash: 82601e8a07900cf77b3f251cd3ecc248
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vHeadTrackSensor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DataNodeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 9564b1b80a076da05a5b7aa309240765
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: EntityComponent
+  - hash:
+      serializedVersion: 2
+      Hash: e82b0056c4996ad2277f1ab5257fd40d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vWeaponIKAdjust
+  - hash:
+      serializedVersion: 2
+      Hash: 7775462bd8b1fe3cf257e12f7449ee78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: v_AIAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAudioSurfaceControl
+  - hash:
+      serializedVersion: 2
+      Hash: cb8ab56d24179aaf2d4244d0e2ed8c81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 96fdc1f0a79776cf01fbaf3f11134f04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: UIForm
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: UGuiGroupHelper
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0608f3c9fdb8e75303a45712a4194b27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: cLoadingForm
+  - hash:
+      serializedVersion: 2
+      Hash: 08ca5df98e05fc7bcf48b6624edc0fdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThirdPersonController
+  - hash:
+      serializedVersion: 2
+      Hash: 4897f5a226d42459f106a93afe05a2dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vRotateObject
+  - hash:
+      serializedVersion: 2
+      Hash: ae8c3a6be2753fabdd2cfd716345fc82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vRagdoll
+  - hash:
+      serializedVersion: 2
+      Hash: 672b1aefff6c72407eecb53691aeed57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vJumpMultiplierTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 75a2fb3d5c88da6fc2c8e9ac535369d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: vWaypointArea
+  - hash:
+      serializedVersion: 2
+      Hash: fa03da394f3eaef4ecd45399a915187b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vDamageReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5dc7a98f436a2a07605427dd96f4a843
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vHealthController
+  - hash:
+      serializedVersion: 2
+      Hash: 13e3b9a80b8262cd7894d2c383174017
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: SpritesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 70d9d8a2377e50339e0f548bc428b79b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: UpdateResourceForm
+  - hash:
+      serializedVersion: 2
+      Hash: cd6f28c03f74e417e322ac6c7a9bf5ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.vActions
+    className: vGenericAction
+  - hash:
+      serializedVersion: 2
+      Hash: 8d96ad6161c97fa338810f4a857cda32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAnimatorSetFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 05468c08d1e6d8f9fa06c2c1653f5b4d
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: EditorResourceComponent
+  - hash:
+      serializedVersion: 2
+      Hash: a2334395dbdef6aa696ca48eeea5b87d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vUpdateUIPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 613f1b81f364ec90134b1b179c1fb5f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vEquipArea
+  - hash:
+      serializedVersion: 2
+      Hash: 39f32db8b111885d8951906702ff3a93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vBowControl
+  - hash:
+      serializedVersion: 2
+      Hash: 2eb9ace6ee8c68dc31c58332a042b0f3
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: ProcedureComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 4922d37a92de4b4db2d917ac6c58a000
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: ConfigComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 55bef487c49715ef384661e6a88104cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: ScrollableBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 902cbc34243e2b44b81fc55758c80b12
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vAmmoListData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: Entity
+  - hash:
+      serializedVersion: 2
+      Hash: fa03da394f3eaef4ecd45399a915187b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vDamageReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: d1c91f83d05b3903cb51014835eeea5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vAnimatorSetInt
+  - hash:
+      serializedVersion: 2
+      Hash: bae4dff5719fca9d3d5dfea38da13f1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 8001a5f7502aab37e42206da015e6914
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 7845dfc0ae3e367c9c13ec2b4dda475e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vCheckItemIsEquipped
+  - hash:
+      serializedVersion: 2
+      Hash: 7c464a81fa0e632efbd4b7cad9bb52b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vSpikeControl
+  - hash:
+      serializedVersion: 2
+      Hash: 88bc7cbbba5d6ffbd96a99063a43363a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vPendulum
+  - hash:
+      serializedVersion: 2
+      Hash: 3d6a9b6d97b47867d89d14184ee5311c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vMeleeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultSettingHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 0c78954a37e54e1e41ac2c3375e8bcac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vMousePositionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: eaff6a0006775011a9d4b9f7fe81a382
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vHUDController
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d90430bcbf05582cac0679fc3b297d68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vShooterWeaponBase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: FsmComponent
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b3b4220108e195a64ec29d0388ad93d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vMasterWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: SettingHallForm
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: bc0bcc65950a841eda008c74123c4da5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vRemoveCurrentItem
+  - hash:
+      serializedVersion: 2
+      Hash: 49b662f85eb1c4660fd7f175676f35d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vWeaponHolderManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3011b11ad7167edc28b0f8f3cdb3759
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vJoystickMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 9396a077443c85538080c4740cf1eb47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vFootStepTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b53f892b697f39549fc27d8ded2ca788
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vLockOn
+  - hash:
+      serializedVersion: 2
+      Hash: 9304ec324eeb2352dc40133327ca103f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vPickupItem
+  - hash:
+      serializedVersion: 2
+      Hash: b43cad5117c7810c71a24efce7ce188d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vItemAttributes
+  - hash:
+      serializedVersion: 2
+      Hash: 28042d55cb1a50afee07717f6ab7b927
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vPlayRandomClip
+  - hash:
+      serializedVersion: 2
+      Hash: 173c95beb51a58eda36b12a6132cc902
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: ReferencePoolComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 8f55d831e0646690fb024468e9fdfe1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vResetTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: UnityWebRequestDownloadAgentHelper
+  - hash:
+      serializedVersion: 2
+      Hash: a69efcf74e69b0bcc594d4cd873fdc95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vBulletLifeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultFileSystemHelper
+  - hash:
+      serializedVersion: 2
+      Hash: a6c1c8a98e3eee2d1bd0d2f7152e5010
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: cMainMangerForm
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7d26cfa4999ccd62d697e2850f37c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vEquipment
+  - hash:
+      serializedVersion: 2
+      Hash: 99ccc04a38cbc4bd8d14e815f2756cc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vFootStep
+  - hash:
+      serializedVersion: 2
+      Hash: 2f2f9cac72ced102fb5890971788724b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vEquipmentDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 55b103828087d5958c52907504ebfeb2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vDisplayWeaponStandalone
+  - hash:
+      serializedVersion: 2
+      Hash: 2f82edef02e2232cf1329c7e7dbd7cdf
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: BaseComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 7775462bd8b1fe3cf257e12f7449ee78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: v_AIMotor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 34222c6d00abe87b7e13f64eda59864e
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: FileSystemComponent
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 09e9c49983071bfb0b5d3b67ddfc5039
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.vActions
+    className: vLadderAction
+  - hash:
+      serializedVersion: 2
+      Hash: 7a66f7df96a99095ac0ecedd4332169f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 80e3b4fd10fc971668aa4d1c9ff38aed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vMessageReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 9e4fc8b75a95339988022c4288d76184
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: v_SpriteHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultConfigHelper
+  - hash:
+      serializedVersion: 2
+      Hash: a65bacd2d1c44b373c09c471dad95df8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vBodyStruct
+  - hash:
+      serializedVersion: 2
+      Hash: 7108e13849ba68bf377d03da8fe3330b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vMeleeCombatInput
+  - hash:
+      serializedVersion: 2
+      Hash: 186fdc5298c9b28e7924582ea1e62c89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vWeaponHolder
+  - hash:
+      serializedVersion: 2
+      Hash: ec433ce445393912b33ffa2ea7b0bdc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vGameController
+  - hash:
+      serializedVersion: 2
+      Hash: 96b0610665952308b93416dede2e2219
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vShooterManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3c02b2e2729dbfc01c4fa96553e51d63
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vShooter
+    className: vPowerChargeProjectileControl
+  - hash:
+      serializedVersion: 2
+      Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: d0f66e3ed0c59c87b560f2261c8f186a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vMoveSetSpeed
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: fe7b9e0841cc4e723bcc47872a585c23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vMelee
+    className: vMeleeAttackObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: a0f93bf044ed8628ba6c8e70b5f22271
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vTutorialTextTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: f60dde3f912e7fddeef9d08f1e796b49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vToolbarButton
+  - hash:
+      serializedVersion: 2
+      Hash: c56fdf948667a20fc12300a4de779d8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vSimpleTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 32eaea2bc3de34dbbb7f49593ebe0a02
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: SoundComponent
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 9038ab8c000406da6ee330ebf6845d21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCamera
+    className: vChangeCameraAngleTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 269b008dc9801ee2ef71926786bc7831
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DebuggerComponent
+  - hash:
+      serializedVersion: 2
+      Hash: daf3bd41ae1919e4c4b0ef71b50bef9b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vAddItemByID
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ab06f9a5a46f975f8a14e6800a766ff7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vEventSystems
+    className: vAnimatorTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameName
+    className: Test
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 8418eeb07a6a06a095998ef1cff2b98d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vExplosive
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: ed560e6675c3d0c3a9617984748122c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: v_AIController
+  - hash:
+      serializedVersion: 2
+      Hash: c277514f7b22ac651b853e50aeee6df4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vGridLayoutExpand
+  - hash:
+      serializedVersion: 2
+      Hash: a8c30723c1c4b2ab80aab3b833b66bde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vEquipItemToArea
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityGameFramework.Runtime.dll
+    namespaceName: UnityGameFramework.Runtime
+    className: DefaultSoundAgentHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7d26cfa4999ccd62d697e2850f37c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vMeleeEquipment
+  - hash:
+      serializedVersion: 2
+      Hash: c549b72e065307429808e5a14aa95b9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vRemoveItem
+  - hash:
+      serializedVersion: 2
+      Hash: a733f2f77be1c8dca4e38ba79449a86c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector
+    className: vSimpleDoor
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 051e9f8e156cbcb7f146c3df27e97e25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.Utils
+    className: vInstantiate
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3a36895ed36601d1bad2e6ecdefc77a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.AI
+    className: v_AICompanion
+  - hash:
+      serializedVersion: 2
+      Hash: d31d5762b01296c8cb847ac55d3c1cbe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vItemManager
+    className: vItemListData
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d9dbffae047398b5b91f1815d62b02c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController.vActions
+    className: vTriggerGenericAction
+  - hash:
+      serializedVersion: 2
+      Hash: 3243ead0e06af8294562478afb9605b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Invector.vCharacterController
+    className: vThirdPersonMotor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 5
+  scenePathNames:
+  - Assets/GameEntry.unity
+  - Assets/GameMain/Scenes/GameStart.unity
+  - Assets/GameMain/Scenes/GameMain.unity
+  playerPath: "C:/Users/kosyu/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/2020\u672A\u6765\u5275\u9020\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8/2020\u672A\u6765\u5275\u9020\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8EXE/GFW0421.exe"

@@ -1,0 +1,10 @@
+{
+  "GameVersion": "0.1.0",
+  "InternalGameVersion": 0,
+  "CheckVersionUrl": "https://GameName.gameframework.cn/Resources/{0}Version.txt",
+  "WindowsAppUrl": "https://GameName.gameframework.cn",
+  "MacOSAppUrl": "https://GameName.gameframework.cn",
+  "IOSAppUrl": "https://GameName.gameframework.cn",
+  "AndroidAppUrl": "https://GameName.gameframework.cn",
+  "END_OF_JSON": ""
+}
