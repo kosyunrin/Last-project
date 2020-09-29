@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C9361C97-078D-2B0F-0D95-35E76B6666B7}</ProjectGuid>
+    <ProjectGuid>{0C6A60DB-3536-108D-1016-08AE6BEB0F8E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -361,19 +361,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -730,50 +730,50 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{1050A752-62F5-74CB-FC1C-77F03ADE7F83}</Project>
+      <Project>{7DD421E1-C88C-634B-68D2-C5362640E389}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="UnityGameFramework.Runtime.csproj">
-      <Project>{9349944A-C849-DE52-D346-6F3F0A21C389}</Project>
+      <Project>{7B3630B4-DC2E-A665-7C51-D6BD6BBF6837}</Project>
       <Name>UnityGameFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityGameFramework.Editor.csproj">
-      <Project>{8867B93A-68D3-80E7-EECE-D3B353341D10}</Project>
+      <Project>{64056550-038A-A7A4-0F15-815EDB2DA2B3}</Project>
       <Name>UnityGameFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>

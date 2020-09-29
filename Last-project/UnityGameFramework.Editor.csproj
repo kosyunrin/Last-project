@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8867B93A-68D3-80E7-EECE-D3B353341D10}</ProjectGuid>
+    <ProjectGuid>{64056550-038A-A7A4-0F15-815EDB2DA2B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityGameFramework.Editor</AssemblyName>
@@ -330,19 +330,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -699,21 +699,21 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityGameFramework.Runtime.csproj">
-      <Project>{9349944A-C849-DE52-D346-6F3F0A21C389}</Project>
+      <Project>{7B3630B4-DC2E-A665-7C51-D6BD6BBF6837}</Project>
       <Name>UnityGameFramework.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

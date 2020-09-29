@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9349944A-C849-DE52-D346-6F3F0A21C389}</ProjectGuid>
+    <ProjectGuid>{7B3630B4-DC2E-A665-7C51-D6BD6BBF6837}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityGameFramework.Runtime</AssemblyName>
@@ -470,16 +470,16 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -827,10 +827,10 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

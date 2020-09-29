@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1050A752-62F5-74CB-FC1C-77F03ADE7F83}</ProjectGuid>
+    <ProjectGuid>{7DD421E1-C88C-634B-68D2-C5362640E389}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\GameMain\Scripts\Base\GameEntry.Builtin.cs" />
     <Compile Include="Assets\GameMain\Scripts\Base\GameEntry.Custom.cs" />
     <Compile Include="Assets\GameMain\Scripts\Base\GameEntry.cs" />
@@ -149,7 +148,8 @@
     <Compile Include="Assets\GameMain\Scripts\Utility\AssetUtility.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\LitJsonHelper.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\WebUtility.cs" />
-    <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
+    <Compile Include="Assets\user\NewBehaviourScript.cs" />
+    <Compile Include="Assets\user\Tool\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\CullingFadeControl\vCullingFadeControl.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\vThirdPersonCamera.cs" />
@@ -390,6 +390,7 @@
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\Scripts\Weapon\vShooterEquipment.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\Scripts\Weapon\vShooterWeapon.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\Scripts\Weapon\vShooterWeaponBase.cs" />
+    <Compile Include="Assets\user\Tool\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
     <None Include="Assets\GameMain\Configs\DefaultDictionary.xml" />
     <None Include="Assets\GameMain\Localization\ChineseTraditional\Dictionaries\Default.xml" />
     <None Include="Assets\GameMain\DataTables\Music.txt" />
@@ -397,7 +398,7 @@
     <None Include="Assets\GameMain\DataTables\UISound.txt" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\README_Shooter.txt" />
     <None Include="Assets\GameMain\Localization\English\Dictionaries\Default.xml" />
-    <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\GameMain\Configs\DefaultConfig.txt" />
     <None Include="Assets\GameMain\Configs\ResourceBuilder.xml" />
     <None Include="Assets\GameMain\DataTables\MyPackData.txt" />
@@ -407,9 +408,9 @@
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\README_Basic.txt" />
     <None Include="Assets\GameMain\Configs\DataTableCodeTemplate.txt" />
     <None Include="Assets\GameFramework\Libraries\GameFramework.xml" />
-    <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\user\Tool\EffectExamples\Magic Effects\Shaders\Ice.shader" />
     <None Include="Assets\GameMain\DataTables\Sound.txt" />
-    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\GameMain\DataTables\Scene.txt" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Shaders\alpha_2sided.shader" />
     <None Include="Assets\GameMain\Configs\BuildSettings.xml" />
@@ -419,13 +420,13 @@
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\Resources\AlphaMask.shader" />
     <None Include="Assets\GameMain\DataTables\Weapon.txt" />
     <None Include="Assets\GameMain\DataTables\Thruster.txt" />
-    <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
     <None Include="Assets\GameMain\Localization\Korean\Dictionaries\Default.xml" />
     <None Include="Assets\GameMain\DataTables\Asteroid.txt" />
     <None Include="Assets\GameMain\Configs\ResourceEditor.xml" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Materials\vEmissionWithMask.shader" />
     <None Include="Assets\GameMain\Configs\BuildInfo.txt" />
-    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
+    <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\GameMain\DataTables\Entity.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -611,16 +612,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -977,40 +978,40 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/kosyu/OneDrive/デスクトップ/2020未来創造プロジェクト/2020未来創造プロジェクト/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityGameFramework.Runtime.csproj">
-      <Project>{9349944A-C849-DE52-D346-6F3F0A21C389}</Project>
+      <Project>{7B3630B4-DC2E-A665-7C51-D6BD6BBF6837}</Project>
       <Name>UnityGameFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityGameFramework.Editor.csproj">
-      <Project>{8867B93A-68D3-80E7-EECE-D3B353341D10}</Project>
+      <Project>{64056550-038A-A7A4-0F15-815EDB2DA2B3}</Project>
       <Name>UnityGameFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>
