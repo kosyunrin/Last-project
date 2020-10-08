@@ -148,7 +148,10 @@
     <Compile Include="Assets\GameMain\Scripts\Utility\AssetUtility.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\LitJsonHelper.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\WebUtility.cs" />
-    <Compile Include="Assets\user\NewBehaviourScript.cs" />
+    <Compile Include="Assets\user\CustomCode\IntancePlayerObject.cs" />
+    <Compile Include="Assets\user\CustomCode\Logic@Monos\skCodeHardwareLogic.cs" />
+    <Compile Include="Assets\user\CustomCode\skAnimatorLogicReseve.cs" />
+    <Compile Include="Assets\user\CustomCode\skAnimatorStataMachineController.cs" />
     <Compile Include="Assets\user\Tool\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\CullingFadeControl\vCullingFadeControl.cs" />
