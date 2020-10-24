@@ -67,6 +67,24 @@ namespace GameName
             playSoundParams.SpatialBlend = drSound.SpatialBlend;
             return soundComponent.PlaySound(AssetUtility.GetSoundAsset(drSound.AssetName), "Sound", Constant.AssetPriority.SoundAsset, playSoundParams, bindingEntity != null ? bindingEntity.Entity : null, userData);
         }
+        public static int? Play3DSound(this SoundComponent soundComponent, int soundId, VarVector3 worldPos = null, object userData = null)
+        {
+            IDataTable<DRSound> dtSound = GameEntry.DataTable.GetDataTable<DRSound>();
+            DRSound drSound = dtSound.GetDataRow(soundId);
+            if (drSound == null)
+            {
+                Log.Warning("Can not load sound '{0}' from data table.", soundId.ToString());
+                return null;
+            }
+
+            PlaySoundParams playSoundParams = PlaySoundParams.Create();
+            playSoundParams.Priority = drSound.Priority;
+            playSoundParams.Loop = drSound.Loop;
+            playSoundParams.VolumeInSoundGroup = drSound.Volume;
+            playSoundParams.SpatialBlend = 0;
+            //playSoundParams.PanStereo = 1;
+            return soundComponent.PlaySound(AssetUtility.GetSoundAsset(drSound.AssetName), "Sound", worldPos != null ? worldPos : null);
+        }
 
         public static int? PlayUISound(this SoundComponent soundComponent, int uiSoundId, object userData = null)
         {

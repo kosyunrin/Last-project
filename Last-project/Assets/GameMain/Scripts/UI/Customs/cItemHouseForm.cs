@@ -11,7 +11,7 @@ namespace GameName
         [SerializeField] ScrollRect Scroll = null;
         private RectTransform MoveScroll=null;
         private float YilieSize=0;
-        private GameObject Grids = null;
+        //private GameObject Grids = null;
  
 
 

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3776423882420675082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3776423882420675083}
+  - component: {fileID: 3776423882420675084}
+  m_Layer: 9
+  m_Name: EnemyHeathCollider
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3776423882420675083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3776423882420675082}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0066666664, y: 0.0066666664, z: 0.0066666664}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3776423882420675084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3776423882420675082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b67d8750d564547b048e7c973b12c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthLink:
+    targetScript: {fileID: 0}
+    fieldName: currentHitPoints
+  HealthbarPrefab: {fileID: 22400004, guid: 8121f2224687b734abfda426c1cb40a7, type: 3}
+  yOffset: 1.8
+  keepSize: 1
+  scale: 2.5
+  sizeOffsets: {x: -300, y: -500}
+  DrawOFFDistance: 1
+  drawDistance: 25
+  showHealthInfo: 1
+  canvas: {fileID: 0}
+  healthInfoAlignment: 1
+  healthInfoSize: 18
+  alphaSettings:
+    defaultAlpha: 0.354
+    defaultFadeSpeed: 0.05
+    fullAplpha: 0.38
+    fullFadeSpeed: 0
+    nullAlpha: 0.438
+    nullFadeSpeed: 0.05
+    onHit:
+      fadeSpeed: 0.01
+      onHitAlpha: 1
+      duration: 1

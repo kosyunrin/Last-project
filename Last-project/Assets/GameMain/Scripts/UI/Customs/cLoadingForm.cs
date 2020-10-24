@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
 using GameFramework.DataTable;
+using Unity​Engine.Rendering.HighDefinition;//记得加头文件
 
 namespace GameName
 {
@@ -25,14 +26,13 @@ namespace GameName
         [Range(0.5f, 5)] public float TimeBetweenBackground = 0.5f;
 
         [Header("References")]
-        [SerializeField] private Text SceneNameText = null;
-        [SerializeField] private Text DescriptionText = null;
-        [SerializeField] private Text ProgressText = null;
+        //[SerializeField] private Text SceneNameText = null;
+        //[SerializeField] private Text DescriptionText = null;
+        //[SerializeField] private Text ProgressText = null;
         [SerializeField] private Image BackgroundImage = null;
         [SerializeField] private Image FilledImage = null;
         [SerializeField] private GameObject RootUI;
         [SerializeField] private GameObject FlashImage = null;
-        [SerializeField] private CanvasGroup FadeImageCanvas = null;
         [SerializeField] private RectTransform LoadingCircle = null;
         [SerializeField] private CanvasGroup LoadingCircleCanvas = null;
         [SerializeField]
@@ -234,6 +234,10 @@ namespace GameName
         void CloseThis(object sender, GameEventArgs e)
         {
             CountDown = 1;
+            //Camera  d= Camera.main;
+            //if (!d) return;
+            //d.GetComponent<HDAdditionalCameraData>().clearColorMode = HDAdditionalCameraData.ClearColorMode.Sky;
+            //d.cullingMask = ~(1 << 18);  // 渲染除去层x的所有层
             Debug.Log("quan bu duqu");
         }
     

@@ -48,9 +48,9 @@ TagManager:
   - HeadTrack
   - BodyPart
   - BlockAIRayCast
-  - 
-  - 
-  - 
+  - EnemyCollider
+  - Nothing
+  - HitBox
   - 
   - 
   - 

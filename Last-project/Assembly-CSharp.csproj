@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_14;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_14;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -148,10 +148,41 @@
     <Compile Include="Assets\GameMain\Scripts\Utility\AssetUtility.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\LitJsonHelper.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\WebUtility.cs" />
-    <Compile Include="Assets\user\CustomCode\IntancePlayerObject.cs" />
-    <Compile Include="Assets\user\CustomCode\Logic@Monos\skCodeHardwareLogic.cs" />
-    <Compile Include="Assets\user\CustomCode\skAnimatorLogicReseve.cs" />
-    <Compile Include="Assets\user\CustomCode\skAnimatorStataMachineController.cs" />
+    <Compile Include="Assets\SKF\Event\EventPlate.cs" />
+    <Compile Include="Assets\SKF\Event\SKFrameworkPlateBase.cs" />
+    <Compile Include="Assets\SKF\GameBase.cs" />
+    <Compile Include="Assets\SKF\GameControllerPlate.cs" />
+    <Compile Include="Assets\SKF\MixerSliderLink.cs" />
+    <Compile Include="Assets\SKF\SKF.cs" />
+    <Compile Include="Assets\SKF\SKFPlayerHeightEnvetsByState.cs" />
+    <Compile Include="Assets\SKF\SKFSTATIC.cs" />
+    <Compile Include="Assets\SKF\test.cs" />
+    <Compile Include="Assets\Test\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierShield.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsteAttackCirleSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterFIndSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterIdelSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterPursuitSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterStaticIdelSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMosterAttackSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\SKMinorMonsterLogic.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\DictionarySK.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\EnemyHelthManager.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\skBossAmonoTurningSMB.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\skCanFindTarget.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Player\IntancePlayerObject.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\UI\HealthBar.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\UI\HealthbarRoot.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\UI\RemoteHealth.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\skAnimatorLogicReseve.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\skAnimatorStataMachineController.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\skCodeHardwareLogic.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\skSimpStateEvents.cs" />
+    <Compile Include="Assets\user\TestEnemyAI\skAnimBaseSMB.cs" />
+    <Compile Include="Assets\user\TestEnemyAI\skBossAmonoIdelSMB.cs" />
+    <Compile Include="Assets\user\TestEnemyAI\skBossAmonoLogic.cs" />
+    <Compile Include="Assets\user\TestEnemyAI\skBossAmonoMeetAttackSMB.cs" />
+    <Compile Include="Assets\user\TestEnemyAI\skBossAmonoPursuitSMB.cs" />
+    <Compile Include="Assets\user\TestEnemyAI\skEnemyController.cs" />
     <Compile Include="Assets\user\Tool\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\user\Tool\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\CullingFadeControl\vCullingFadeControl.cs" />
@@ -396,11 +427,13 @@
     <Compile Include="Assets\user\Tool\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
     <None Include="Assets\GameMain\Configs\DefaultDictionary.xml" />
     <None Include="Assets\GameMain\Localization\ChineseTraditional\Dictionaries\Default.xml" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\Alien.shader" />
     <None Include="Assets\GameMain\DataTables\Music.txt" />
     <None Include="Assets\GameMain\DataTables\Armor.txt" />
     <None Include="Assets\GameMain\DataTables\UISound.txt" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\README_Shooter.txt" />
     <None Include="Assets\GameMain\Localization\English\Dictionaries\Default.xml" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\EyeLash.shader" />
     <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\GameMain\Configs\DefaultConfig.txt" />
     <None Include="Assets\GameMain\Configs\ResourceBuilder.xml" />
@@ -416,21 +449,27 @@
     <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\GameMain\DataTables\Scene.txt" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Melee Combat\3DModels\Other\Wires\Shaders\alpha_2sided.shader" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\EyeBallsHD.shader" />
     <None Include="Assets\GameMain\Configs\BuildSettings.xml" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips\animations.txt" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Melee Combat\README_Melee.txt" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\ItemManager\3D Models\Materials\UIOnTopShader.shader" />
     <None Include="Assets\GameMain\Localization\ChineseSimplified\Dictionaries\Default.xml" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\Resources\AlphaMask.shader" />
     <None Include="Assets\GameMain\DataTables\Weapon.txt" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\EnergyCore.shader" />
     <None Include="Assets\GameMain\DataTables\Thruster.txt" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\SculptedHair.shader" />
     <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
     <None Include="Assets\GameMain\Localization\Korean\Dictionaries\Default.xml" />
     <None Include="Assets\GameMain\DataTables\Asteroid.txt" />
     <None Include="Assets\GameMain\Configs\ResourceEditor.xml" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
     <None Include="Assets\user\Tool\Invector-3rdPersonController\Shooter\3DModels\Weapons\vRifle\Materials\vEmissionWithMask.shader" />
     <None Include="Assets\GameMain\Configs\BuildInfo.txt" />
     <None Include="Assets\user\Tool\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\GameMain\DataTables\Entity.txt" />
+    <None Include="Assets\Test\3D Game Kit - Character Pack\Shaders\Dissolve.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -986,6 +1025,15 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -998,8 +1046,35 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>F:/最後のプロジェクト/Last-project/Last-project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

@@ -28,9 +28,10 @@ namespace GameName
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
-            mGame = new cGameManger(this);
-            mGame.Init();
+           mGame = new cGameManger(this);
+           mGame.Init();
         }
+        
 
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
         {

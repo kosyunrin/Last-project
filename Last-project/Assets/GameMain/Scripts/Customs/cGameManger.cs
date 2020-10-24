@@ -32,12 +32,10 @@ namespace GameName
         public void Init()
         {
             GameEntry.Event.Subscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
-            GameEntry.Entity.CreatePlayerManager(new TestData(GameEntry.Entity.GenerateSerialId(), 10000)
-            {
-                Position=new Vector3(0,5,0),
+            CreatPlayer();
+            CreatEnemyBoss();
 
-            });
-            m_LoadedFlag.Add(EntityExtension.s_SerialId, false);
+
         }
         public void UpDate()
         {
@@ -55,10 +53,12 @@ namespace GameName
                         return;
                     }
                 }
+               
                 Debug.Log(0);
                 GameEntry.Event.Fire(this, ReferencePool.Acquire<LoadNextResourcesSuccessArgs>().Fill(true));
                 isLoadSuccess = true;
             }
+           
         }
         public void Leave()
         {
@@ -85,11 +85,35 @@ namespace GameName
 
             var Loading=
             GameEntry.UI.GetUIForm(UIFormId.LoadingFrom);
-            if(Loading)
+
+            var xd = GameEntry.Entity.GetEntity(m_entityData.Id);
+            if (xd)
             {
-                cLoadingForm logic = (cLoadingForm)Loading.UIForm.Logic;
-                logic.mPlayerManagaer = GameEntry.Entity.GetEntity(m_entityData.Id);
+                if (Loading && xd.Id == -1)
+                {
+                    cLoadingForm logic = (cLoadingForm)Loading.UIForm.Logic;
+                    logic.mPlayerManagaer = xd;
+                }
             }
+            
+        }
+        private void CreatPlayer()
+        {
+            GameEntry.Entity.CreatePlayerManager(new TestData(GameEntry.Entity.GenerateSerialId(), 10000)
+            {
+                Position = new Vector3(0, 5, 0),
+
+            });
+            m_LoadedFlag.Add(EntityExtension.s_SerialId, false);
+        }
+        private void CreatEnemyBoss()
+        {
+            GameEntry.Entity.CreatePlayerManager(new TestData(GameEntry.Entity.GenerateSerialId(), 10001)
+            {
+                Position = new Vector3(1.3f, 0, -17),
+
+            });
+            m_LoadedFlag.Add(EntityExtension.s_SerialId, false);
         }
     }
 
