@@ -11,8 +11,11 @@ namespace SKFramework.PLATE
     /// </summary>
     public sealed class EventPlate : SKFrameworkPlateBase
     {
+        
         private iSKFEventController mEventManager=null;
         private SKFEvent OnChangeHeightEvets = new SKFEvent();
+       // public delegate void NEWEVENTS(object flags);
+        
         protected override void Awake()
         {
             base.Awake();
@@ -43,7 +46,7 @@ namespace SKFramework.PLATE
         /// <summary>
         ///事件予約
         /// </summary>
-        public void Subscribe(SKFEvent Event, UnityAction<object> e)
+        public void Subscribe(SKFEvent Event,  UnityAction<object> e)
         {
             mEventManager.Subscribe(Event, e);
         }
@@ -68,6 +71,7 @@ namespace SKFramework.PLATE
         {
             mEventManager.Fire(Event,oe);
         }
+
     }
     
 }
@@ -111,4 +115,5 @@ namespace SKFramework.EVENT
             Event.RemoveAllListeners();
         }
     }
+
 }

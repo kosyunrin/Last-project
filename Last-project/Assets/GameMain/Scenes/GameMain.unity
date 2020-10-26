@@ -1762,6 +1762,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mixer: {fileID: 24100000, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
+--- !u!114 &1652112895 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6655739957096164101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2402ce7cc1406714ab4e54fbecfb94e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1819237834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,7 +2373,48 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7594470686816705387, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: skillLogic.JumpLastAttackAnimTime
+      value: 0.093
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705387, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: skillLogic.JumpAttckHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705387, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: skillLogic.ExitLastJumpAttackTimer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705390, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: selectedToolbar
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705390, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: _currentHealth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705390, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: fillHealthOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705390, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594470686816705391, guid: eda8f947b09e9a348a30ab1a3a4dcb21,
+        type: 3}
+      propertyPath: rollInput.useInput
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7594470686816705388, guid: eda8f947b09e9a348a30ab1a3a4dcb21, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eda8f947b09e9a348a30ab1a3a4dcb21, type: 3}
 --- !u!1001 &6655739957096164101
 PrefabInstance:
@@ -2435,5 +2488,95 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1950649121}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: OnReceiveDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: invulnerabiltyAnim
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: invulnerabiltyTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: hitAngle
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: hitForwardRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: OnReceiveDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: OnReceiveDamage.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: OnReceiveDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1652112895}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: OnReceiveDamage.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetCurrentDirfromP
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705112, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: OnReceiveDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705115, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.010183095
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705115, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.005030997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: PlayerInstancex.heightOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: PlayerInstancex.detectionRadius
+      value: 12.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: PlayerInstancex.detectionAngle
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: mAI.MeetAttackRangeAr
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: mAI.LongAttackRangeSr
+      value: 7.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655739958208705119, guid: 2c92be81ed5ff5c4f98194d581a2a44d,
+        type: 3}
+      propertyPath: mAI.MaxFIghtingTime
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c92be81ed5ff5c4f98194d581a2a44d, type: 3}

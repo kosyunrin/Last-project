@@ -2,23 +2,29 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using SKFramework.GAMECONTROLLER;
-using UnityEngine.Events;
+using Invector.vCharacterController;
+using SKFramework.EVENT;
 
 namespace SKFramework.PLATE
 {
     /// <summary>
     ///ゲームコントローラーPlate
     /// </summary>
-    public sealed class GameControllerPlate : SKFrameworkPlateBase
+    public sealed partial class GameControllerPlate : SKFrameworkPlateBase
     {
         [SerializeField] AudioMixer Mixer=null;
         private iSKFGameController GameManager = null;
+        public AudioMixer GetMixer { get { return Mixer; } }
+
         protected override void Awake()
         {
             base.Awake();
             GameManager = new GameControllerInterface(Mixer);
         }
-        public AudioMixer GetMixer { get { return Mixer; } }
+        private void Start()
+        {
+        }
+       
         /// <summary>
         ///音を調整する
         ///0-1
@@ -73,10 +79,11 @@ namespace SKFramework.PLATE
         }
 
 
-        private void Start()
-        {
-           
-        }
+      
+    }
+
+    public sealed partial class GameControllerPlate
+    {
     }
 }
 namespace SKFramework.GAMECONTROLLER

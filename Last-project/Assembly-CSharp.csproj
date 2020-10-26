@@ -148,6 +148,7 @@
     <Compile Include="Assets\GameMain\Scripts\Utility\AssetUtility.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\LitJsonHelper.cs" />
     <Compile Include="Assets\GameMain\Scripts\Utility\WebUtility.cs" />
+    <Compile Include="Assets\SKF\AnimStateMachineSUB.cs" />
     <Compile Include="Assets\SKF\Event\EventPlate.cs" />
     <Compile Include="Assets\SKF\Event\SKFrameworkPlateBase.cs" />
     <Compile Include="Assets\SKF\GameBase.cs" />
@@ -157,6 +158,7 @@
     <Compile Include="Assets\SKF\SKFPlayerHeightEnvetsByState.cs" />
     <Compile Include="Assets\SKF\SKFSTATIC.cs" />
     <Compile Include="Assets\SKF\test.cs" />
+    <Compile Include="Assets\SkillJumpAttackAnimLogic.cs" />
     <Compile Include="Assets\Test\3DGamekit\Scripts\Game\Enemies\Grenadier\GrenadierShield.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsteAttackCirleSMBsk.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterFIndSMBsk.cs" />
@@ -164,6 +166,7 @@
     <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterPursuitSMBsk.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMonsterStaticIdelSMBsk.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMosterAttackSMBsk.cs" />
+    <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\MinorMosterTurnSMB.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\Anima@雑魚\SKMinorMonsterLogic.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\DictionarySK.cs" />
     <Compile Include="Assets\user\Customs\Scripts\Enemy\EnemyHelthManager.cs" />
@@ -173,8 +176,6 @@
     <Compile Include="Assets\user\Customs\Scripts\UI\HealthBar.cs" />
     <Compile Include="Assets\user\Customs\Scripts\UI\HealthbarRoot.cs" />
     <Compile Include="Assets\user\Customs\Scripts\UI\RemoteHealth.cs" />
-    <Compile Include="Assets\user\Customs\Scripts\skAnimatorLogicReseve.cs" />
-    <Compile Include="Assets\user\Customs\Scripts\skAnimatorStataMachineController.cs" />
     <Compile Include="Assets\user\Customs\Scripts\skCodeHardwareLogic.cs" />
     <Compile Include="Assets\user\Customs\Scripts\skSimpStateEvents.cs" />
     <Compile Include="Assets\user\TestEnemyAI\skAnimBaseSMB.cs" />
