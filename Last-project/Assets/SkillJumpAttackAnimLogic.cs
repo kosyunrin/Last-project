@@ -23,7 +23,7 @@ public class SkillJumpAttackAnimLogic : StateMachineBehaviour
         ExitLastAnimTime = 0;
         if (LogicStage == LogicNum.SkillStart)
         {
-            IntancePlayerObject.intance.vmeetinput.SetAnyStataFalseForJumpAttack(true);
+            //IntancePlayerObject.intance.vmeetinput.SetAnyStataFalseForJumpAttack(true);
         }
        
     }
@@ -52,7 +52,7 @@ public class SkillJumpAttackAnimLogic : StateMachineBehaviour
         base.OnStateExit(animator, stateInfo, layerIndex);
          if (LogicStage == LogicNum.SKillEnd)
         {
-            IntancePlayerObject.intance.vmeetinput.SetAnyStataFalseForJumpAttack(false);
+           // IntancePlayerObject.intance.vmeetinput.SetAnyStataFalseForJumpAttack(false);
         }
     }
 }

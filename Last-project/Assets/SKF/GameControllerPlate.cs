@@ -14,17 +14,29 @@ namespace SKFramework.PLATE
     {
         [SerializeField] AudioMixer Mixer=null;
         private iSKFGameController GameManager = null;
+        private ObjectPoolsk<ObjectpoolBaseSK> mEnemyXBPool=null;
+
+        public ObjectpoolBaseSK EnemyXiaoBing= null;
         public AudioMixer GetMixer { get { return Mixer; } }
 
         protected override void Awake()
         {
             base.Awake();
             GameManager = new GameControllerInterface(Mixer);
+            mEnemyXBPool = new ObjectPoolsk<ObjectpoolBaseSK>();
         }
         private void Start()
         {
+            mEnemyXBPool.Initialize(20, EnemyXiaoBing);
         }
-       
+        private void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.I))
+            {
+                SKF.Game.ShowEnemyXiaoBing(new Vector3(0,12,0),Quaternion.identity);
+            }
+        }
+
         /// <summary>
         ///音を調整する
         ///0-1
@@ -77,9 +89,28 @@ namespace SKFramework.PLATE
         {
             GameManager.iRevisionAnimaterSpeed(anim, f);
         }
+        /// <summary>
+        ///取出小兵
+        /// </summary>
+        public void ShowEnemyXiaoBing()
+        {
+            mEnemyXBPool.TakeOut();
+        }
+        public void ShowEnemyXiaoBing(Vector3 WorldPos,Quaternion WolrdQuation)
+        {
+            mEnemyXBPool.TakeOut(WorldPos, WolrdQuation);
+        }
+        /// <summary>
+        ///收回小兵
+        /// </summary>
+        public void HiddenEnemyXiaoBing(ObjectpoolBaseSK x)
+        {
+            mEnemyXBPool.TakeBack(x);
+        }
 
 
-      
+
+
     }
 
     public sealed partial class GameControllerPlate

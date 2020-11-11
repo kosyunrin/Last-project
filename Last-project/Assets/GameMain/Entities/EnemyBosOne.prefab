@@ -1856,7 +1856,9 @@ MonoBehaviour:
   maxHitPoints: 200
   currentHitPoints: 0
   DamagerNum: 5
+  RecoveSpeed: 0
   invulnerabiltyTime: 3
+  invulnerabiltyAnim: 7
   hitAngle: 176
   hitForwardRotation: 186
   GetHurtColliders: []
