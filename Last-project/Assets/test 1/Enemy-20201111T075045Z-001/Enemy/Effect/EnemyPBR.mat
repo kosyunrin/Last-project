@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EnemyPBR
+  m_Shader: {fileID: -6465566751694194690, guid: 168daaea74d6f87428408584b162b360,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: 0553bac72f65e6b459f873b527430d2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMask1:
+        m_Texture: {fileID: 2800000, guid: d7964e6c080c83742bdb516c12aed421, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMask2:
+        m_Texture: {fileID: 2800000, guid: dfb0a0a5634d18f4087fbe4372e4943f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMask3:
+        m_Texture: {fileID: 2800000, guid: ae43c1b1665cbc747837f7e25755b656, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMask4:
+        m_Texture: {fileID: 2800000, guid: 748bb90de35013845b7cda8a224e9e38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMask5:
+        m_Texture: {fileID: 2800000, guid: 4b0ba94fda524b94f97997debe5f0915, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMask6:
+        m_Texture: {fileID: 2800000, guid: 4773ac2c5e5c2564ebddacf7af56e676, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 30d94ea8cfc63ec4da052207dcc0274a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: bd24719cf02b8c744a7106d529feae60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClipEdgeWidth: 0.1
+    - _ClipEnable: 0
+    - _ClipThreshold: 0
+    - _EmissiveIntensity: 1
+    - _Metallic: 1
+    - _Occlusion: 1
+    - _Smoothness: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ClipColor: {r: 1, g: 0.9786698, b: 0, a: 1}
+    - _EmissiveColor1: {r: 1, g: 0.65104294, b: 0, a: 1}
+    - _EmissiveColor2: {r: 0, g: 1, b: 0.23424387, a: 1}
+    - _EmissiveColor3: {r: 0, g: 1, b: 0.54663914, a: 1}
+    - _EmissiveColor4: {r: 0.5687466, g: 0, b: 1, a: 1}
+    - _EmissiveColor5: {r: 0, g: 0.15004346, b: 1, a: 1}
+    - _EmissiveColor6: {r: 1, g: 0, b: 0.44068426, a: 1}

@@ -27,7 +27,7 @@ namespace SKFramework.PLATE
         }
         private void Start()
         {
-            mEnemyXBPool.Initialize(20, EnemyXiaoBing);
+            mEnemyXBPool.Initialize(1, EnemyXiaoBing);
         }
         private void Update()
         {

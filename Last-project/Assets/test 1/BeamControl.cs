@@ -44,7 +44,7 @@ public class BeamControl : MonoBehaviour
         var objL = GameObject.Instantiate(objLinePerfab);
         objL.transform.localScale = transform.localScale;
         objLinePerfab = objL;
-      
+
         rLineRender = objL.GetComponent<LineRenderer>();
         rLineRender.positionCount = 2;
 
@@ -56,7 +56,14 @@ public class BeamControl : MonoBehaviour
 
         Clear();
     }
+    public void RestWeapon()
+    {
+        this.transform.SetParent(null);
+        Destroy(objParticlePerfab);
+        Destroy(objLinePerfab);
+        Destroy(this.gameObject);
 
+    }
     public void SetStartPosition(Vector3 vec)
     {
         transform.position = vec;
