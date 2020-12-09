@@ -4,6 +4,7 @@ using UnityEngine.Audio;
 using SKFramework.GAMECONTROLLER;
 using Invector.vCharacterController;
 using SKFramework.EVENT;
+using ENEMY_AI;
 
 namespace SKFramework.PLATE
 {
@@ -27,13 +28,32 @@ namespace SKFramework.PLATE
         }
         private void Start()
         {
-            mEnemyXBPool.Initialize(1, EnemyXiaoBing);
+            mEnemyXBPool.Initialize(10, EnemyXiaoBing);
         }
         private void Update()
         {
             if(Input.GetKeyDown(KeyCode.I))
             {
-                SKF.Game.ShowEnemyXiaoBing(new Vector3(0,12,0),Quaternion.identity);
+                Transform xiaobing0 = null;
+                //Transform xiaobing1 = null;
+                //Transform xiaobing2 = null;
+                //Transform xiaobing3 = null;
+                //Transform xiaobing4 = null;
+                SKF.Game.ShowEnemyXiaoBing(ref xiaobing0);
+                //SKF.Game.ShowEnemyXiaoBing(ref xiaobing1);
+                //SKF.Game.ShowEnemyXiaoBing(ref xiaobing2);
+                //SKF.Game.ShowEnemyXiaoBing(ref xiaobing3);
+                //SKF.Game.ShowEnemyXiaoBing(ref xiaobing4);
+                xiaobing0.position = new Vector3(-7, 5, 5.6f);
+                SKMinorMonsterLogic minor0 = xiaobing0.GetComponent<SKMinorMonsterLogic>();
+                minor0.RoadDictionary.Add(0, new Vector3(-7, 0, 5.6f));
+                minor0.RoadDictionary.Add(1, new Vector3(-7, 0, 12));
+                minor0.RoadDictionary.Add(2, new Vector3(-1, 0, 11));
+                minor0.RoadDictionary.Add(3, new Vector3(-1, 0, 5));
+                //xiaobing1.position = new Vector3(11, 5, 11);
+                //xiaobing2.position = new Vector3(12, 5, -29);
+                //xiaobing3.position = new Vector3(10, 5, -7);
+                //xiaobing4.position = new Vector3(-6, 10, -7);
             }
         }
 
@@ -99,6 +119,10 @@ namespace SKFramework.PLATE
         public void ShowEnemyXiaoBing(Vector3 WorldPos,Quaternion WolrdQuation)
         {
             mEnemyXBPool.TakeOut(WorldPos, WolrdQuation);
+        }
+        public void ShowEnemyXiaoBing(ref Transform OutObject)
+        {
+            mEnemyXBPool.TakeOut(ref OutObject);
         }
         /// <summary>
         ///收回小兵

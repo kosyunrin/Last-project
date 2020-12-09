@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &567088973741405180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567088973741405182}
+  - component: {fileID: 567088973741405183}
+  m_Layer: 0
+  m_Name: BossGroundSKillEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &567088973741405182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567088973741405180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1709862, y: 5.71, z: 16.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &567088973741405183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567088973741405180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fecc6960e04754699c9b6d4bdfe5cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objParent: {fileID: 567088973741405180}
+  objBlackHole: {fileID: 8396685402360378376, guid: 3271a5509b8233942838407724feb214,
+    type: 3}
+  objHeatDistortion: {fileID: 7049291104778531580, guid: 72b3112e4cea6e7448df6ab3345c5ba8,
+    type: 3}
+  objSwiril: {fileID: 6241986464105417861, guid: 555312dc8859bd042b899fe18d65d37a,
+    type: 3}
+  objOrb: {fileID: 7217974521792896570, guid: 6f8eb819e4d72d64e9bfdffd75bee523, type: 3}
+  eState: 0
+  fDurationTime: 5

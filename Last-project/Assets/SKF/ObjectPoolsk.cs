@@ -45,6 +45,12 @@ namespace SKFramework
             instances[idx].gameObject.SetActive(true);
             instances[idx].transform.SetPositionAndRotation(worldPos, worldDir);
         }
+        public void TakeOut( ref Transform outObject)
+        {
+            int idx = m_FreeIdx.Pop();
+            instances[idx].gameObject.SetActive(true);
+            outObject = instances[idx].transform;
+        }
         public void TakeBack(T obj)
         {
             m_FreeIdx.Push(obj.poolID);
